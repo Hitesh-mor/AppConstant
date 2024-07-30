@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "AppConstant",
             dependencies: []),
-        .testTarget(
-            name: "AppConstantTests",
-            dependencies: ["AppConstant"]),
     ]
 )

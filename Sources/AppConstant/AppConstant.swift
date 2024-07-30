@@ -1,6 +1,7 @@
 public struct AppConstant {
-    public private(set) var text = "Hello, World!"
-
-    public init() {
-    }
+    
+    public static private(set) var text = "A Hello from \"Appconstant\" to \"UICoponentPackage\" to MainProject"
+    
+    public init() { }
+    
 }
